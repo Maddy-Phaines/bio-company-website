@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  -webkit-text-size-adjust: 100%; /* Prevents font scaling on iOS */
+}
+html,
+body {
+  height: 100%; /* Ensures full-height layout */
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* For macOS */
+  font-weight: 400; /* Regular */
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block; /* Avoids inline block spacing issues */
+  max-width: 100%; /* Ensures responsive media */
+}
+h1 {
+  font-weight: 700; /* Bold */
+}
